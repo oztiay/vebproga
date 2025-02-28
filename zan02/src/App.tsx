@@ -23,9 +23,6 @@ function App() {
       .catch(error => console.error('Ошибка загрузки данных:', error));
   }, []);
 
-
-
-  
   // Добавление нового пользователя
   const handleAddUser = async () => {
     try {
@@ -123,4 +120,3 @@ onChange={(e) => setNewUser({ ...newUser, username: e.target.value })}
 }
 
 export default App;
-
