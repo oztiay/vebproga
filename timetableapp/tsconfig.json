@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "baseUrl": "./src", // Базовая директория для импортов
+    "paths": {
+      "*": ["*"] // Разрешение путей
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
